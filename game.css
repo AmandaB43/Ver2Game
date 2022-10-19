@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+#BlockHop{
+    background-color: #819BB1;
+}

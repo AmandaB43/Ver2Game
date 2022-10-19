@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  #first {
+    /*border: 1px solid red;*/
+    background-color: #485B85;
+}
+
+.container{
+  justify-content: center;
+  display: flex;
+  flex-direction: wrap;
+ /* border: 2px solid lime;*/
+  flex: 1;
+  height: 80vh;
+}
+
+#rules {
+    background-color: #819BB1;
+    display: flex;
+    border-radius: 5% 5% / 5% 5%;
+    border-color: #4a6196;
+    box-shadow: 0px 3px 10px 6px#34456e;
+    width: 40%;
+    flex-direction: column;
+ }
+  h1 {
+    font-family: 'Upheaval TT (BRK)';
+    font-size: 48px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 28px;
+    text-align: center;
+   font-family: 'Upheaval TT (BRK)';
+  }
+  ul {
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Upheaval TT (BRK)';
+  }
+#one {
+    opacity: 0;
+  }
+#two {
+    opacity: 0;
+  }
+#three {
+    opacity: 0;
+  }
+#four {
+    opacity: 0;
+  }
+#link {
+text-align: center;
+font-family: 'Upheaval TT (BRK)';
+font-size: 30px;
+color: #4a906c;
+}
+a:hover {color:#4A906C;}   /* mouse over link */
