@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
 }
+#container{
+    border: 5px groove purple;
+    width: 500px;
+    height: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #game {
     width: 500px;
     height: 200px;
