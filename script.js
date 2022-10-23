@@ -22,3 +22,9 @@ var checkDead = setInterval (function () {
             alert("You lost!");
         }
 },10);
+var start = document.getElementById("btnStart");
+
+function startGame(){
+
+
+}
