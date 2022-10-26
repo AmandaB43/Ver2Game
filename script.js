@@ -14,7 +14,7 @@ function jump(){
 var checkDead = setInterval (function () {
         var characterTop =
                 parseInt (window.getComputedStyle(character).getPropertyValue("top"));
-    var blockLeft =
+         var blockLeft =
         parseInt(window.getComputedStyle(block).getPropertyValue("left"));
     if(blockLeft<20 && blockLeft>0 && characterTop>=130) {
             block.style.animation = "none" ;
@@ -22,9 +22,3 @@ var checkDead = setInterval (function () {
             alert("You lost!");
         }
 },10);
-var start = document.getElementById("btnStart");
-
-function startGame(){
-
-
-}
