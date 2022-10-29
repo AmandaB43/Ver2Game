@@ -22,3 +22,13 @@ var checkDead = setInterval (function () {
             alert("You lost!");
         }
 },10);
+//Code belwo messed up jump funciton
+//let counter = 30
+/*function counter(){
+setInterval(()=>{
+        console.log(counter--)
+        if (counter===0){
+                clearInterval()
+        }
+}, 1000);
+}*/
