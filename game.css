@@ -38,7 +38,7 @@ padding-left: 41%;
 #one{
 font-family: 'Upheaval TT (BRK)' ;
 font-size: 20px;
-padding-left: 35%;
+margin-left: 33%;
 }
 
 #two{
@@ -81,7 +81,7 @@ padding-left: 15%;
     top: 130px;
     left: 480px;
     animation: block 1s infinite linear;
-    animation-delay:5s;
+    animation-delay:0s;
 }
 @keyframes block{
     0%{left: 490px;}
@@ -104,13 +104,11 @@ padding-left: 15%;
     text-align: center;
     font-family: 'Upheaval TT (BRK)' ;
 }
-#Lost{
-    visibility: hidden;
+#lost{
     font-size: 40px; 
     text-align: center;
     font-family: 'Upheaval TT (BRK)' ;
 }
-
 #BlockHop{
     background-color: #485B85;
 }

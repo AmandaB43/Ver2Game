@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id = 'BlockHop' lang="en" onclick="jump()">
+<html id = 'BlockHop' lang="en">
     <head>
         <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -8,25 +8,23 @@
     </head>
     <body>
 <div id="background">     
-<div id="container">
+<div id="container" onclick="jump()">
     <div id = "game">
         <div id = "character"></div>
         <div id = "block"></div>
     </div>
 </div>
 
-<button id="btnRestart"></button>
+<div id="button" onclick="restart()">
+    <button id="btnRestart">Restart!</button>
+</div>
 <div id="titlebox">
     <h1 id="title">BLOCK HOP!</h1>
-    <p id="one">Refresh the website to try again!</p>
+    <p id="one">Click the restart button to try again!</p>
     <p id="two">Click to make the orange box jump, 
         you cannot let the blue box touch it!</p>
  </div>
- <div id="Win">
-    <p> You Win!</p>
-</div>
-<div id ="Lost">
-    <p>You Lost!</p>
+<div id ="lost">
 </div>
 </div>
         <script src = script.js>
