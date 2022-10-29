@@ -98,6 +98,18 @@ padding-left: 15%;
     padding-bottom: 30%;
     width: 70%;
 }
+#Win{
+    visibility: hidden;
+    font-size: 40px; 
+    text-align: center;
+    font-family: 'Upheaval TT (BRK)' ;
+}
+#Lost{
+    visibility: hidden;
+    font-size: 40px; 
+    text-align: center;
+    font-family: 'Upheaval TT (BRK)' ;
+}
 
 #BlockHop{
     background-color: #485B85;

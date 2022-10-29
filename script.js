@@ -1,5 +1,6 @@
 var character = document.getElementById("character"); 
 var block = document.getElementById("block");
+var lost = document.getElementById("Lost");
 
 
 function jump(){
@@ -19,16 +20,17 @@ var checkDead = setInterval (function () {
     if(blockLeft<20 && blockLeft>0 && characterTop>=130) {
             block.style.animation = "none" ;
             block.style.display = "none" ;
-            alert("You lost!");
+            lost.style.display = "";
         }
 },10);
-//Code belwo messed up jump funciton
-//let counter = 30
-/*function counter(){
-setInterval(()=>{
-        console.log(counter--)
-        if (counter===0){
-                clearInterval()
+//Code below is a test that isnt working. No display to show win or loss
+/*function display(){
+if (checkDead() === true)   {
+        document.getElementById("Lost").style.display = 'block';
+        document.getElementById("Lost").style.display = 'none';
         }
-}, 1000);
+else    {
+        document.getElementById("Win").style.display ='block';
+        document.getElementById("Win").style.display ='none';
+        }
 }*/
